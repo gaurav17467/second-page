@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#tasks{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width:900px;
+}
+.card-top{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+.card-bottom{
+  padding: 20px;
+  color:greenyellow;
+  background-color: grey;
+}
+.disclaimer{
+  justify-content: center;
+  align-self: center;
+}
+#searchParent{
+  display: flex;
+  justify-content: center;
+  padding:50px;
+  background-color: rgb(233, 223, 223);
+}
+#search{
+  display: flex;
+  flex-direction: row;
+  
+}
+#searchBar{
+  width: 800px;
+  background: transparent;
+  border: 1px solid grey;
+  padding:13px;
+  outline: none;
+}
+.button-primary{
+  background-color: blue;
+  width:80px;
+  padding:5px;
+  box-shadow: none;
+  border:none;
+  color:white;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(122, 122, 145, 0.514);
+}
+#header-text{
+  text-align: center;
+}
